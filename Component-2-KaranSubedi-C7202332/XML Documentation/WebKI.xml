@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="adjacent field" Url="html/1fa3abb4-41ae-9bd7-7d59-b46ef2038b81.htm" />
+  <HelpKINode Title="baseside field" Url="html/c6162720-67a3-f626-f921-f01b36120cf9.htm" />
+  <HelpKINode Title="bit field" Url="html/f3560978-9219-61c1-1a55-fc8993c24d61.htm" />
+  <HelpKINode Title="bit2 field" Url="html/082be031-bf5d-88ce-0e71-f7774a11ea52.htm" />
+  <HelpKINode Title="Brush field" Url="html/02e08fe2-f140-d761-3d7b-37f649c81181.htm" />
+  <HelpKINode Title="button1 field" Url="html/1cdb0009-bc8a-3146-be98-a8a69cf165fe.htm" />
+  <HelpKINode Title="button1_Click method" Url="html/14a6b2b9-43ca-18a2-e1a6-eb4fe2d6c3e8.htm" />
+  <HelpKINode Title="button2 field" Url="html/256647f1-d21a-2d58-82fc-d6fe7f7dea6f.htm" />
+  <HelpKINode Title="button2_Click method" Url="html/e43aa911-f331-7c66-5bb6-2a4b741516a1.htm" />
+  <HelpKINode Title="clear method" Url="html/35f6b7e1-aea5-e751-a4b3-b7aa8a0689e2.htm" />
+  <HelpKINode Title="commandCheck class">
+    <HelpKINode Title="commandCheck Class" Url="html/19e40a2f-e760-6e60-6816-91e56621d3b5.htm" />
+    <HelpKINode Title="constructor" Url="html/507db453-c42b-c86f-7ae7-daafaf88bf18.htm" />
+    <HelpKINode Title="methods" Url="html/9eda1dff-3472-460c-bb86-3f7e34bd31f5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="commandCheck field" Url="html/96e2b774-0e83-0bd8-ee69-090b6ec5db8e.htm" />
+  <HelpKINode Title="commandCheck.commandCheck constructor" Url="html/507db453-c42b-c86f-7ae7-daafaf88bf18.htm" />
+  <HelpKINode Title="commandCheck.Commands_Check method" Url="html/06688e30-59b5-c098-5f0e-af340a089065.htm" />
+  <HelpKINode Title="commandCheck.Parameterscheck method" Url="html/2bb0884d-0f0d-ae97-17f4-8a576cec5832.htm" />
+  <HelpKINode Title="CommandLine method" Url="html/14d569dc-1742-73bf-cce6-604fe8fd0274.htm" />
+  <HelpKINode Title="commandParser class">
+    <HelpKINode Title="commandParser Class" Url="html/8994686c-5938-c756-9464-833b450a79b7.htm" />
+    <HelpKINode Title="constructor" Url="html/5538da65-dbe4-2d79-ce1a-79c9f06c5b71.htm" />
+    <HelpKINode Title="fields" Url="html/dddac408-1628-4bd9-bfb2-61571f38ba17.htm" />
+    <HelpKINode Title="methods" Url="html/b9e70f98-7134-913e-4972-fa5f854197e4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="commandParser.CommandLine method" Url="html/14d569dc-1742-73bf-cce6-604fe8fd0274.htm" />
+  <HelpKINode Title="commandParser.commandParser constructor" Url="html/5538da65-dbe4-2d79-ce1a-79c9f06c5b71.htm" />
+  <HelpKINode Title="commandParser.Commands method" Url="html/240fc5a1-3fd3-2fe3-c4e2-d6a3bc6d442e.htm" />
+  <HelpKINode Title="commandParser.CommandsEntered method" Url="html/e550e698-226a-54ac-8964-24f8ac6ef7e1.htm" />
+  <HelpKINode Title="commandParser.condition method" Url="html/78a4e2fa-c9d9-ca69-061a-52509bda87b1.htm" />
+  <HelpKINode Title="commandParser.loop method" Url="html/d57d727a-e515-4e99-b1ad-9c18d35aa5a0.htm" />
+  <HelpKINode Title="commandParser.multiplecommands method" Url="html/7e0d8b2a-f06b-4068-7e5f-24890f754196.htm" />
+  <HelpKINode Title="commandParser.numberOfLine field" Url="html/579794c4-2c07-2d0c-0d53-192a84ce0209.htm" />
+  <HelpKINode Title="commandParser.parseMethod method" Url="html/66f8212f-33ab-cc65-621c-34cd084cdae7.htm" />
+  <HelpKINode Title="Commands method" Url="html/240fc5a1-3fd3-2fe3-c4e2-d6a3bc6d442e.htm" />
+  <HelpKINode Title="CommandsEntered method" Url="html/e550e698-226a-54ac-8964-24f8ac6ef7e1.htm" />
+  <HelpKINode Title="Commands_Check method" Url="html/06688e30-59b5-c098-5f0e-af340a089065.htm" />
+  <HelpKINode Title="Component2 namespace" Url="html/4322d52c-2790-a401-15ef-58e3abcc42c8.htm" />
+  <HelpKINode Title="Component2.commandCheck class" Url="html/19e40a2f-e760-6e60-6816-91e56621d3b5.htm" />
+  <HelpKINode Title="Component2.commandParser class" Url="html/8994686c-5938-c756-9464-833b450a79b7.htm" />
+  <HelpKINode Title="Component2.DrawCircle class" Url="html/bf6e280f-debd-2caf-18ad-d6242a60ef35.htm" />
+  <HelpKINode Title="Component2.Drawing class" Url="html/5ec438ce-0b50-3128-7530-dec58dee1502.htm" />
+  <HelpKINode Title="Component2.DrawPolygon class" Url="html/ccccca19-108f-242b-4ae0-45d3a5119dcd.htm" />
+  <HelpKINode Title="Component2.DrawRectangle class" Url="html/880a150e-1d26-1d29-5ad1-568e2d0ee739.htm" />
+  <HelpKINode Title="Component2.DrawTriangle class" Url="html/ec786896-b3a0-6af8-9266-11f56350b230.htm" />
+  <HelpKINode Title="Component2.Form1 class" Url="html/053a9a96-3659-a345-d22d-d9ef8dccc8ba.htm" />
+  <HelpKINode Title="Component2.methods class" Url="html/ad3a2d93-1cd0-ec53-765e-e20ec744361d.htm" />
+  <HelpKINode Title="Component2.Program class" Url="html/0d74e110-4e6c-7def-101d-a7845297ca84.htm" />
+  <HelpKINode Title="Component2.Shape class" Url="html/8e1bf1fd-8314-5505-4dc4-48a4841ceb27.htm" />
+  <HelpKINode Title="Component2.Variable class" Url="html/1ef46f73-eb79-eb64-3cf1-65b040db38a6.htm" />
+  <HelpKINode Title="components field" Url="html/8ba00c45-2d78-8273-3088-36bc171e9042.htm" />
+  <HelpKINode Title="condition method" Url="html/78a4e2fa-c9d9-ca69-061a-52509bda87b1.htm" />
+  <HelpKINode Title="contextMenuStrip1 field" Url="html/074787d1-1ebf-0fab-4777-9997473bf62f.htm" />
+  <HelpKINode Title="contextMenuStrip1_Opening method" Url="html/d321ca71-dfa1-d814-20f5-1887eb63dd40.htm" />
+  <HelpKINode Title="Dispose method" Url="html/6f714cf3-839f-4e66-44f7-be30787db07d.htm" />
+  <HelpKINode Title="draw method">
+    <HelpKINode Title="DrawCircle.draw Method " Url="html/83d9d99d-e565-bc39-282e-5f2d932d2fb1.htm" />
+    <HelpKINode Title="DrawPolygon.draw Method " Url="html/5469e4d5-6b51-f0b3-fab4-93dbdc3686c4.htm" />
+    <HelpKINode Title="DrawRectangle.draw Method " Url="html/6da15388-c99b-1931-7542-842357c20677.htm" />
+    <HelpKINode Title="DrawTriangle.draw Method " Url="html/ae16b425-b17e-1d7f-43c0-d06501fabccd.htm" />
+    <HelpKINode Title="Shape.draw Method " Url="html/16ba0faa-9f6c-1c28-1676-b9b8c9f629bc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DrawCircle class">
+    <HelpKINode Title="DrawCircle Class" Url="html/bf6e280f-debd-2caf-18ad-d6242a60ef35.htm" />
+    <HelpKINode Title="constructor" Url="html/637d8f38-05d3-6741-c1c1-03c12ece8d04.htm" />
+    <HelpKINode Title="fields" Url="html/aea4e660-4bbb-67ee-4443-435b29baa061.htm" />
+    <HelpKINode Title="methods" Url="html/da993ff7-3de0-4237-3c70-6456649f3d81.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DrawCircle.draw method" Url="html/83d9d99d-e565-bc39-282e-5f2d932d2fb1.htm" />
+  <HelpKINode Title="DrawCircle.DrawCircle constructor" Url="html/637d8f38-05d3-6741-c1c1-03c12ece8d04.htm" />
+  <HelpKINode Title="DrawCircle.radius field" Url="html/eae33e78-8351-a301-d546-05835fb78b78.htm" />
+  <HelpKINode Title="Drawing class">
+    <HelpKINode Title="Drawing Class" Url="html/5ec438ce-0b50-3128-7530-dec58dee1502.htm" />
+    <HelpKINode Title="constructor" Url="html/ce426391-cda4-84b1-f736-55401bb87d6d.htm" />
+    <HelpKINode Title="fields" Url="html/eba6af26-db71-5be6-0c1f-ca680d3ee5ec.htm" />
+    <HelpKINode Title="methods" Url="html/61f69f6b-d277-cc3c-4da1-6e657ccd5c7a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Drawing.Brush field" Url="html/02e08fe2-f140-d761-3d7b-37f649c81181.htm" />
+  <HelpKINode Title="Drawing.clear method" Url="html/35f6b7e1-aea5-e751-a4b3-b7aa8a0689e2.htm" />
+  <HelpKINode Title="Drawing.commandCheck field" Url="html/96e2b774-0e83-0bd8-ee69-090b6ec5db8e.htm" />
+  <HelpKINode Title="Drawing.Drawing constructor" Url="html/ce426391-cda4-84b1-f736-55401bb87d6d.htm" />
+  <HelpKINode Title="Drawing.drawTo method" Url="html/41287769-ed2f-97da-200d-c08309b2f175.htm" />
+  <HelpKINode Title="Drawing.error field" Url="html/82aee29c-c9fe-9156-72a0-1e77d5d5acd0.htm" />
+  <HelpKINode Title="Drawing.fill field" Url="html/fcfc4276-a638-e1d0-627b-1bc2858d16e2.htm" />
+  <HelpKINode Title="Drawing.g field" Url="html/77652f95-ed25-2684-3226-03886ac2e7cc.htm" />
+  <HelpKINode Title="Drawing.m field" Url="html/1c758bcb-74b3-6e0a-1f28-f71d4188343c.htm" />
+  <HelpKINode Title="Drawing.moveTo method" Url="html/d445bf1b-2969-8213-c603-38254dc587a2.htm" />
+  <HelpKINode Title="Drawing.p field" Url="html/fe976dcd-81e5-1a6e-bd98-01b59a32cb7d.htm" />
+  <HelpKINode Title="Drawing.reset method" Url="html/3b115102-70e4-4907-6baf-8cf4cead3410.htm" />
+  <HelpKINode Title="Drawing.set_penColor method" Url="html/a6086f5b-eed4-43e9-5294-8362f39eeaa0.htm" />
+  <HelpKINode Title="Drawing.v field" Url="html/f3175165-3bb3-2d4c-0464-46a09525ade7.htm" />
+  <HelpKINode Title="Drawing.xposition field" Url="html/e0b0b940-aef3-2246-67af-d8b9da763bc1.htm" />
+  <HelpKINode Title="Drawing.yposition field" Url="html/5510c327-5c2b-692b-6e17-3b178fa833f5.htm" />
+  <HelpKINode Title="DrawPolygon class">
+    <HelpKINode Title="DrawPolygon Class" Url="html/ccccca19-108f-242b-4ae0-45d3a5119dcd.htm" />
+    <HelpKINode Title="constructor" Url="html/26b2f335-582c-94bc-ed66-45da9c40d7e6.htm" />
+    <HelpKINode Title="fields" Url="html/0aec6698-dfc2-3c3c-84db-9a772008a18e.htm" />
+    <HelpKINode Title="methods" Url="html/1a9899de-29d6-709d-7542-a166dae97f26.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DrawPolygon.draw method" Url="html/5469e4d5-6b51-f0b3-fab4-93dbdc3686c4.htm" />
+  <HelpKINode Title="DrawPolygon.DrawPolygon constructor" Url="html/26b2f335-582c-94bc-ed66-45da9c40d7e6.htm" />
+  <HelpKINode Title="DrawPolygon.points field" Url="html/d109ed8a-3c54-96fa-cc45-bddc9f91a1f8.htm" />
+  <HelpKINode Title="DrawRectangle class">
+    <HelpKINode Title="DrawRectangle Class" Url="html/880a150e-1d26-1d29-5ad1-568e2d0ee739.htm" />
+    <HelpKINode Title="constructor" Url="html/6b25e8c3-6d9f-14f3-534b-fbf983d73e0c.htm" />
+    <HelpKINode Title="fields" Url="html/c46d1282-d8c4-4770-147d-dd91ff220fb8.htm" />
+    <HelpKINode Title="methods" Url="html/4349801b-95aa-a8e6-982a-366a4a72c52a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DrawRectangle.draw method" Url="html/6da15388-c99b-1931-7542-842357c20677.htm" />
+  <HelpKINode Title="DrawRectangle.DrawRectangle constructor" Url="html/6b25e8c3-6d9f-14f3-534b-fbf983d73e0c.htm" />
+  <HelpKINode Title="DrawRectangle.height field" Url="html/7d15efd3-8374-bbd6-465e-a6f051b32820.htm" />
+  <HelpKINode Title="DrawRectangle.width field" Url="html/40d1c3a6-1d1f-9ddb-94a3-b7c309e19d8a.htm" />
+  <HelpKINode Title="drawTo method" Url="html/41287769-ed2f-97da-200d-c08309b2f175.htm" />
+  <HelpKINode Title="DrawTriangle class">
+    <HelpKINode Title="DrawTriangle Class" Url="html/ec786896-b3a0-6af8-9266-11f56350b230.htm" />
+    <HelpKINode Title="constructor" Url="html/39eebdbb-5183-93d6-b5e7-d261948737f5.htm" />
+    <HelpKINode Title="fields" Url="html/d05ea25d-0ef5-ab8e-3ee5-b3e44c242f3b.htm" />
+    <HelpKINode Title="methods" Url="html/619f0cae-f0ff-1c6a-902a-03cf4a2c4a0a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DrawTriangle.adjacent field" Url="html/1fa3abb4-41ae-9bd7-7d59-b46ef2038b81.htm" />
+  <HelpKINode Title="DrawTriangle.baseside field" Url="html/c6162720-67a3-f626-f921-f01b36120cf9.htm" />
+  <HelpKINode Title="DrawTriangle.draw method" Url="html/ae16b425-b17e-1d7f-43c0-d06501fabccd.htm" />
+  <HelpKINode Title="DrawTriangle.DrawTriangle constructor" Url="html/39eebdbb-5183-93d6-b5e7-d261948737f5.htm" />
+  <HelpKINode Title="DrawTriangle.hypotenuse field" Url="html/c8b1343c-56ca-6817-5b10-e36ad2e8da38.htm" />
+  <HelpKINode Title="error field" Url="html/82aee29c-c9fe-9156-72a0-1e77d5d5acd0.htm" />
+  <HelpKINode Title="exisitingVariable method" Url="html/a8de7c82-9cbe-91f7-9e73-3899c95db4d1.htm" />
+  <HelpKINode Title="existingMethod method" Url="html/8498488f-46ff-1e4a-c560-5c875c8cf446.htm" />
+  <HelpKINode Title="fileToolStripMenuItem field" Url="html/c2619324-cfe2-fb14-0227-f405f58d0e32.htm" />
+  <HelpKINode Title="fill field" Url="html/fcfc4276-a638-e1d0-627b-1bc2858d16e2.htm" />
+  <HelpKINode Title="Form1 class">
+    <HelpKINode Title="Form1 Class" Url="html/053a9a96-3659-a345-d22d-d9ef8dccc8ba.htm" />
+    <HelpKINode Title="constructor" Url="html/a9655a36-4535-4960-8083-50772e40336d.htm" />
+    <HelpKINode Title="fields" Url="html/9af1836a-ed99-0e14-2618-2e5435df9b45.htm" />
+    <HelpKINode Title="methods" Url="html/0a4ddabf-6991-3240-64b4-7dfb6b88ef67.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Form1.bit field" Url="html/f3560978-9219-61c1-1a55-fc8993c24d61.htm" />
+  <HelpKINode Title="Form1.bit2 field" Url="html/082be031-bf5d-88ce-0e71-f7774a11ea52.htm" />
+  <HelpKINode Title="Form1.button1 field" Url="html/1cdb0009-bc8a-3146-be98-a8a69cf165fe.htm" />
+  <HelpKINode Title="Form1.button1_Click method" Url="html/14a6b2b9-43ca-18a2-e1a6-eb4fe2d6c3e8.htm" />
+  <HelpKINode Title="Form1.button2 field" Url="html/256647f1-d21a-2d58-82fc-d6fe7f7dea6f.htm" />
+  <HelpKINode Title="Form1.button2_Click method" Url="html/e43aa911-f331-7c66-5bb6-2a4b741516a1.htm" />
+  <HelpKINode Title="Form1.components field" Url="html/8ba00c45-2d78-8273-3088-36bc171e9042.htm" />
+  <HelpKINode Title="Form1.contextMenuStrip1 field" Url="html/074787d1-1ebf-0fab-4777-9997473bf62f.htm" />
+  <HelpKINode Title="Form1.contextMenuStrip1_Opening method" Url="html/d321ca71-dfa1-d814-20f5-1887eb63dd40.htm" />
+  <HelpKINode Title="Form1.Dispose method" Url="html/6f714cf3-839f-4e66-44f7-be30787db07d.htm" />
+  <HelpKINode Title="Form1.fileToolStripMenuItem field" Url="html/c2619324-cfe2-fb14-0227-f405f58d0e32.htm" />
+  <HelpKINode Title="Form1.Form1 constructor" Url="html/a9655a36-4535-4960-8083-50772e40336d.htm" />
+  <HelpKINode Title="Form1.g field" Url="html/dcaccbfe-b893-9147-3807-bb14c35ea8ba.htm" />
+  <HelpKINode Title="Form1.InitializeComponent method" Url="html/49250f6d-de02-8c02-a1d4-12e10119a690.htm" />
+  <HelpKINode Title="Form1.loadToolStripMenuItem field" Url="html/44e723a2-0985-6d74-f811-621581e00703.htm" />
+  <HelpKINode Title="Form1.loadToolStripMenuItem_Click method" Url="html/52873d58-2f1b-9877-395c-082357e2541b.htm" />
+  <HelpKINode Title="Form1.menuStrip1 field" Url="html/84c24bc8-e4b2-10ca-bbf9-adbe27d4974b.htm" />
+  <HelpKINode Title="Form1.mybitmap field" Url="html/8e4024b3-0a85-d259-1a3c-a4b99730b17f.htm" />
+  <HelpKINode Title="Form1.NewDrawing field" Url="html/39d25493-03a7-0deb-5de2-152d2ec2ac19.htm" />
+  <HelpKINode Title="Form1.pictureBox1 field" Url="html/c0d3af68-d8f9-3443-8a09-684e8bc39494.htm" />
+  <HelpKINode Title="Form1.pictureBox1_Paint method" Url="html/8bc3eba9-345f-67a7-4223-9991f5f8d058.htm" />
+  <HelpKINode Title="Form1.richTextBox1 field" Url="html/80d2c9e3-74cb-8197-bb3c-3fec33cc87be.htm" />
+  <HelpKINode Title="Form1.saveToolStripMenuItem field" Url="html/12eb428c-10f2-7a16-844d-e701b13d47a2.htm" />
+  <HelpKINode Title="Form1.saveToolStripMenuItem_Click method" Url="html/9cfd9f48-1f55-da1d-a8bf-d9a72ddc88b5.htm" />
+  <HelpKINode Title="Form1.textBox1 field" Url="html/7c59f671-0a8e-3243-f9d7-116b23aa08fb.htm" />
+  <HelpKINode Title="Form1.textBox1_KeyDown method" Url="html/60ce29f5-9c03-3d4d-628f-4aab635b4f46.htm" />
+  <HelpKINode Title="g field">
+    <HelpKINode Title="Drawing.g Field" Url="html/77652f95-ed25-2684-3226-03886ac2e7cc.htm" />
+    <HelpKINode Title="Form1.g Field" Url="html/dcaccbfe-b893-9147-3807-bb14c35ea8ba.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getMethod method" Url="html/16e18fa8-2119-c6d0-d30f-a1ea8727f19f.htm" />
+  <HelpKINode Title="height field">
+    <HelpKINode Title="DrawRectangle.height Field" Url="html/7d15efd3-8374-bbd6-465e-a6f051b32820.htm" />
+    <HelpKINode Title="Shape.height Field" Url="html/c220ee84-eb43-0f55-f04b-bc2c01f7ab05.htm" />
+  </HelpKINode>
+  <HelpKINode Title="hypotenuse field" Url="html/c8b1343c-56ca-6817-5b10-e36ad2e8da38.htm" />
+  <HelpKINode Title="InitializeComponent method" Url="html/49250f6d-de02-8c02-a1d4-12e10119a690.htm" />
+  <HelpKINode Title="loadToolStripMenuItem field" Url="html/44e723a2-0985-6d74-f811-621581e00703.htm" />
+  <HelpKINode Title="loadToolStripMenuItem_Click method" Url="html/52873d58-2f1b-9877-395c-082357e2541b.htm" />
+  <HelpKINode Title="loop method" Url="html/d57d727a-e515-4e99-b1ad-9c18d35aa5a0.htm" />
+  <HelpKINode Title="m field" Url="html/1c758bcb-74b3-6e0a-1f28-f71d4188343c.htm" />
+  <HelpKINode Title="Main method" Url="html/9c2fe920-f513-d63e-8c2e-3d9fd1e503f4.htm" />
+  <HelpKINode Title="menuStrip1 field" Url="html/84c24bc8-e4b2-10ca-bbf9-adbe27d4974b.htm" />
+  <HelpKINode Title="method field" Url="html/714dfd63-3450-d47b-3344-180abd8f5c39.htm" />
+  <HelpKINode Title="methods class">
+    <HelpKINode Title="methods Class" Url="html/ad3a2d93-1cd0-ec53-765e-e20ec744361d.htm" />
+    <HelpKINode Title="constructor" Url="html/e27b5ea1-152d-dffd-d673-f7bdb3ecb16f.htm" />
+    <HelpKINode Title="fields" Url="html/65a1b5bf-defe-6f56-6af2-2d0a09bc5c5b.htm" />
+    <HelpKINode Title="methods" Url="html/7c7be13a-be7b-cead-b5a4-ad3e5cab03b4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="methods.existingMethod method" Url="html/8498488f-46ff-1e4a-c560-5c875c8cf446.htm" />
+  <HelpKINode Title="methods.getMethod method" Url="html/16e18fa8-2119-c6d0-d30f-a1ea8727f19f.htm" />
+  <HelpKINode Title="methods.method field" Url="html/714dfd63-3450-d47b-3344-180abd8f5c39.htm" />
+  <HelpKINode Title="methods.methods constructor" Url="html/e27b5ea1-152d-dffd-d673-f7bdb3ecb16f.htm" />
+  <HelpKINode Title="methods.reset method" Url="html/cdcd4b1d-4f99-538e-32d0-66e491918b0b.htm" />
+  <HelpKINode Title="methods.storeMethod method" Url="html/6171f030-b825-f02e-91a8-7b212fb1939f.htm" />
+  <HelpKINode Title="moveTo method" Url="html/d445bf1b-2969-8213-c603-38254dc587a2.htm" />
+  <HelpKINode Title="multiplecommands method" Url="html/7e0d8b2a-f06b-4068-7e5f-24890f754196.htm" />
+  <HelpKINode Title="mybitmap field" Url="html/8e4024b3-0a85-d259-1a3c-a4b99730b17f.htm" />
+  <HelpKINode Title="NewDrawing field" Url="html/39d25493-03a7-0deb-5de2-152d2ec2ac19.htm" />
+  <HelpKINode Title="numberOfLine field" Url="html/579794c4-2c07-2d0c-0d53-192a84ce0209.htm" />
+  <HelpKINode Title="p field" Url="html/fe976dcd-81e5-1a6e-bd98-01b59a32cb7d.htm" />
+  <HelpKINode Title="Parameterscheck method" Url="html/2bb0884d-0f0d-ae97-17f4-8a576cec5832.htm" />
+  <HelpKINode Title="parseMethod method" Url="html/66f8212f-33ab-cc65-621c-34cd084cdae7.htm" />
+  <HelpKINode Title="pictureBox1 field" Url="html/c0d3af68-d8f9-3443-8a09-684e8bc39494.htm" />
+  <HelpKINode Title="pictureBox1_Paint method" Url="html/8bc3eba9-345f-67a7-4223-9991f5f8d058.htm" />
+  <HelpKINode Title="points field" Url="html/d109ed8a-3c54-96fa-cc45-bddc9f91a1f8.htm" />
+  <HelpKINode Title="Program class">
+    <HelpKINode Title="Program Class" Url="html/0d74e110-4e6c-7def-101d-a7845297ca84.htm" />
+    <HelpKINode Title="methods" Url="html/39e28f4b-5d44-bd71-34a1-fb9e1c9ca52b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Program.Main method" Url="html/9c2fe920-f513-d63e-8c2e-3d9fd1e503f4.htm" />
+  <HelpKINode Title="pullData method" Url="html/d911c20d-c5bf-5c5c-297a-286df946635f.htm" />
+  <HelpKINode Title="radius field" Url="html/eae33e78-8351-a301-d546-05835fb78b78.htm" />
+  <HelpKINode Title="reset method">
+    <HelpKINode Title="Drawing.reset Method " Url="html/3b115102-70e4-4907-6baf-8cf4cead3410.htm" />
+    <HelpKINode Title="methods.reset Method " Url="html/cdcd4b1d-4f99-538e-32d0-66e491918b0b.htm" />
+    <HelpKINode Title="Variable.reset Method " Url="html/bda9efe4-d772-baae-11b7-42c076d5f70f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="richTextBox1 field" Url="html/80d2c9e3-74cb-8197-bb3c-3fec33cc87be.htm" />
+  <HelpKINode Title="saveToolStripMenuItem field" Url="html/12eb428c-10f2-7a16-844d-e701b13d47a2.htm" />
+  <HelpKINode Title="saveToolStripMenuItem_Click method" Url="html/9cfd9f48-1f55-da1d-a8bf-d9a72ddc88b5.htm" />
+  <HelpKINode Title="set_penColor method" Url="html/a6086f5b-eed4-43e9-5294-8362f39eeaa0.htm" />
+  <HelpKINode Title="Shape class">
+    <HelpKINode Title="Shape Class" Url="html/8e1bf1fd-8314-5505-4dc4-48a4841ceb27.htm" />
+    <HelpKINode Title="constructor" Url="html/0e283fa4-0529-d239-738a-6b80e2fa53d2.htm" />
+    <HelpKINode Title="fields" Url="html/6cc19266-316b-540c-69f9-5d0e1ffbdd30.htm" />
+    <HelpKINode Title="methods" Url="html/c27eaf3c-0e84-0ab7-b916-128712af385e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Shape.draw method" Url="html/16ba0faa-9f6c-1c28-1676-b9b8c9f629bc.htm" />
+  <HelpKINode Title="Shape.height field" Url="html/c220ee84-eb43-0f55-f04b-bc2c01f7ab05.htm" />
+  <HelpKINode Title="Shape.Shape constructor" Url="html/0e283fa4-0529-d239-738a-6b80e2fa53d2.htm" />
+  <HelpKINode Title="Shape.width field" Url="html/cd20d3b2-e315-d5f8-9aef-73073e3a4ae6.htm" />
+  <HelpKINode Title="storeData method" Url="html/78cf245f-f3f8-c11e-a2b4-b3f9a3204130.htm" />
+  <HelpKINode Title="storeMethod method" Url="html/6171f030-b825-f02e-91a8-7b212fb1939f.htm" />
+  <HelpKINode Title="textBox1 field" Url="html/7c59f671-0a8e-3243-f9d7-116b23aa08fb.htm" />
+  <HelpKINode Title="textBox1_KeyDown method" Url="html/60ce29f5-9c03-3d4d-628f-4aab635b4f46.htm" />
+  <HelpKINode Title="UpdateVariable method" Url="html/6a2d84c4-8b08-e3fa-1c26-553f7d638a57.htm" />
+  <HelpKINode Title="v field" Url="html/f3175165-3bb3-2d4c-0464-46a09525ade7.htm" />
+  <HelpKINode Title="Variable class">
+    <HelpKINode Title="Variable Class" Url="html/1ef46f73-eb79-eb64-3cf1-65b040db38a6.htm" />
+    <HelpKINode Title="constructor" Url="html/99df426c-3527-5b79-d3cb-257f31f99293.htm" />
+    <HelpKINode Title="fields" Url="html/f4924f5d-27f9-6bbb-3ed4-73e33940901a.htm" />
+    <HelpKINode Title="methods" Url="html/9409bb3b-8111-fccc-02f6-1a967689438f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="variable field" Url="html/6be05468-b66a-28cf-f268-83bf2d64912e.htm" />
+  <HelpKINode Title="Variable.exisitingVariable method" Url="html/a8de7c82-9cbe-91f7-9e73-3899c95db4d1.htm" />
+  <HelpKINode Title="Variable.pullData method" Url="html/d911c20d-c5bf-5c5c-297a-286df946635f.htm" />
+  <HelpKINode Title="Variable.reset method" Url="html/bda9efe4-d772-baae-11b7-42c076d5f70f.htm" />
+  <HelpKINode Title="Variable.storeData method" Url="html/78cf245f-f3f8-c11e-a2b4-b3f9a3204130.htm" />
+  <HelpKINode Title="Variable.UpdateVariable method" Url="html/6a2d84c4-8b08-e3fa-1c26-553f7d638a57.htm" />
+  <HelpKINode Title="Variable.Variable constructor" Url="html/99df426c-3527-5b79-d3cb-257f31f99293.htm" />
+  <HelpKINode Title="Variable.variable field" Url="html/6be05468-b66a-28cf-f268-83bf2d64912e.htm" />
+  <HelpKINode Title="width field">
+    <HelpKINode Title="DrawRectangle.width Field" Url="html/40d1c3a6-1d1f-9ddb-94a3-b7c309e19d8a.htm" />
+    <HelpKINode Title="Shape.width Field" Url="html/cd20d3b2-e315-d5f8-9aef-73073e3a4ae6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="xposition field" Url="html/e0b0b940-aef3-2246-67af-d8b9da763bc1.htm" />
+  <HelpKINode Title="yposition field" Url="html/5510c327-5c2b-692b-6e17-3b178fa833f5.htm" />
+</HelpKI>

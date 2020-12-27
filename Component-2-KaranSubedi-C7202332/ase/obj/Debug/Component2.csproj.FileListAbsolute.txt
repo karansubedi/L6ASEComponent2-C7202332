@@ -1,0 +1,11 @@
+E:\C#\Component2\bin\Debug\Component2.exe.config
+E:\C#\Component2\bin\Debug\Component2.exe
+E:\C#\Component2\bin\Debug\Component2.pdb
+E:\C#\Component2\obj\Debug\Component2.csprojAssemblyReference.cache
+E:\C#\Component2\obj\Debug\Component2.Form1.resources
+E:\C#\Component2\obj\Debug\Component2.Properties.Resources.resources
+E:\C#\Component2\obj\Debug\Component2.csproj.GenerateResource.cache
+E:\C#\Component2\obj\Debug\Component2.csproj.CoreCompileInputs.cache
+E:\C#\Component2\obj\Debug\Component2.exe
+E:\C#\Component2\obj\Debug\Component2.pdb
+E:\C#\Component2\bin\Debug\Component2.xml

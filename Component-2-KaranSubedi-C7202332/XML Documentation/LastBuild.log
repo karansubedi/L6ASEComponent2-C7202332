@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2020.3.6.0" projectFile="E:\C#\doc\newdoc.shfbproj" started="12/27/2020 3:18:47 AM">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    E:\C#\doc
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2020.3.6.0
+Copyright &#169; 2006-2020, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: E:\C#\Component2\bin\Debug\Component2.exe
+    Found assembly &#39;E:\C#\Component2\bin\Debug\Component2.exe&#39;
+Source: E:\C#\Component2\bin\Debug\Component2.xml
+
+Copying XML comments files
+    E:\C#\Component2\bin\Debug\Component2.xml -&gt; E:\C#\DocumentsK\Working\Component2.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, English (United States))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00.0758
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00.0232
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 12/27/2020 3:18:51 AM.
+Project &quot;E:\C#\DocumentsK\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateBindingRedirects:
+  No suggested binding redirects from ResolveAssemblyReferences.
+GenerateRefInfo:
+  MRefBuilder (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Wrote information on 1 namespaces, 12 types, and 88 members
+  Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
+Done Building Project &quot;E:\C#\DocumentsK\Working\GenerateRefInfo.proj&quot; (default targets).
+    Last step completed in 00:00:05.7718
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe - TransformManifest.proj]
+Build started 12/27/2020 3:18:55 AM.
+Project &quot;E:\C#\DocumentsK\Working\TransformManifest.proj&quot; on node 1 (default targets).
+TransformManifest:
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copying file from &quot;reflection.xml&quot; to &quot;reflection.nofilenames&quot;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Done Building Project &quot;E:\C#\DocumentsK\Working\TransformManifest.proj&quot; (default targets).
+    Last step completed in 00:00:03.6766
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00.0336
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 12/27/2020 3:18:59 AM.
+Project &quot;E:\C#\DocumentsK\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
+GenerateIntermediateTOC:
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Done Building Project &quot;E:\C#\DocumentsK\Working\GenerateIntermediateTOC.proj&quot; (default targets).
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:03.0288
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:01.2855
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+E:\C#\DocumentsK\Working\sandcastle.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00.0648
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe - BuildTopics.proj]
+Build started 12/27/2020 3:19:04 AM.
+Project &quot;E:\C#\DocumentsK\Working\BuildTopics.proj&quot; on node 1 (default targets).
+BuildTopics:
+  BuildAssembler (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandCheck.Commands_Check(Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandCheck.Commands_Check(Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;n&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandCheck.Commands_Check(Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandCheck.Parameterscheck(System.Boolean,System.String,System.Int32,Component2.Drawing,System.Int32)] Missing &lt;param name=&quot;parameter&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandCheck.Parameterscheck(System.Boolean,System.String,System.Int32,Component2.Drawing,System.Int32)] Missing &lt;param name=&quot;data&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandCheck.Parameterscheck(System.Boolean,System.String,System.Int32,Component2.Drawing,System.Int32)] Missing &lt;param name=&quot;n&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandCheck.Parameterscheck(System.Boolean,System.String,System.Int32,Component2.Drawing,System.Int32)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandCheck.Parameterscheck(System.Boolean,System.String,System.Int32,Component2.Drawing,System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandCheck.Parameterscheck(System.Exception,Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandCheck.Parameterscheck(System.Exception,Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandCheck.Parameterscheck(System.Exception,Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;n&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandCheck.Parameterscheck(System.Exception,Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.CommandLine(System.String,Component2.Drawing)] Missing &lt;param name=&quot;command&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.CommandLine(System.String,Component2.Drawing)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.Commands(System.String,System.String,Component2.Drawing)] Missing &lt;param name=&quot;command&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.Commands(System.String,System.String,Component2.Drawing)] Missing &lt;param name=&quot;multiline&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.Commands(System.String,System.String,Component2.Drawing)] Missing &lt;param name=&quot;NewDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.CommandsEntered(System.String[],Component2.Drawing,System.Int32)] Missing &lt;param name=&quot;split&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.CommandsEntered(System.String[],Component2.Drawing,System.Int32)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.CommandsEntered(System.String[],Component2.Drawing,System.Int32)] Missing &lt;param name=&quot;n&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.condition(System.Collections.Generic.List{System.String},Component2.Drawing,System.Int32,System.Int32)] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.condition(System.Collections.Generic.List{System.String},Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;data&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.condition(System.Collections.Generic.List{System.String},Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.condition(System.Collections.Generic.List{System.String},Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;n&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.condition(System.Collections.Generic.List{System.String},Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;z&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.loop(System.Collections.Generic.List{System.String},Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.loop(System.Collections.Generic.List{System.String},Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;z&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.multiplecommands(System.String,Component2.Drawing)] Missing &lt;param name=&quot;command&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.multiplecommands(System.String,Component2.Drawing)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.commandParser.numberOfLine] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.parseMethod(System.Collections.Generic.List{System.String},Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;data&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.parseMethod(System.Collections.Generic.List{System.String},Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.parseMethod(System.Collections.Generic.List{System.String},Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;n&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.commandParser.parseMethod(System.Collections.Generic.List{System.String},Component2.Drawing,System.Int32,System.Int32)] Missing &lt;param name=&quot;z&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.DrawCircle.#ctor(System.Int32)] Missing &lt;param name=&quot;r&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.DrawCircle.draw(Component2.Drawing)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.DrawCircle.radius] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Drawing.#ctor(System.Drawing.Graphics)] Missing &lt;param name=&quot;g&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Drawing.Brush] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Drawing.commandCheck] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Drawing.drawTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;xposition&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Drawing.drawTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;yposition&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Drawing.error] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Drawing.fill] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Drawing.m] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Drawing.moveTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;xpoint&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Drawing.moveTo(System.Int32,System.Int32)] Missing &lt;param name=&quot;ypoint&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Drawing.p] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Drawing.set_penColor(System.Drawing.Color)] Missing &lt;param name=&quot;c&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Drawing.v] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Drawing.xposition] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Drawing.yposition] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.DrawPolygon.#ctor(System.Int32[])] Missing &lt;param name=&quot;point&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.DrawPolygon.draw(Component2.Drawing)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.DrawPolygon.points] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.DrawRectangle.#ctor(System.Int32,System.Int32)] Missing &lt;param name=&quot;width&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.DrawRectangle.#ctor(System.Int32,System.Int32)] Missing &lt;param name=&quot;height&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.DrawRectangle.draw(Component2.Drawing)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.DrawRectangle.height] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.DrawRectangle.width] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.DrawTriangle.#ctor(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;h&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.DrawTriangle.#ctor(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;b&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.DrawTriangle.#ctor(System.Int32,System.Int32,System.Int32)] Missing &lt;param name=&quot;a&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.DrawTriangle.adjacent] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.DrawTriangle.baseside] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.DrawTriangle.draw(Component2.Drawing)] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.DrawTriangle.draw(Component2.Drawing)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.DrawTriangle.hypotenuse] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.bit] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.bit2] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.button1] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.button1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.button1_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.button2] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.button2_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.button2_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.contextMenuStrip1] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.contextMenuStrip1_Opening(System.Object,System.ComponentModel.CancelEventArgs)] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.contextMenuStrip1_Opening(System.Object,System.ComponentModel.CancelEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.contextMenuStrip1_Opening(System.Object,System.ComponentModel.CancelEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.fileToolStripMenuItem] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.g] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.loadToolStripMenuItem] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.loadToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.loadToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.menuStrip1] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.mybitmap] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.NewDrawing] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.pictureBox1] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.pictureBox1_Paint(System.Object,System.Windows.Forms.PaintEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.pictureBox1_Paint(System.Object,System.Windows.Forms.PaintEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.richTextBox1] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.saveToolStripMenuItem] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.saveToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.saveToolStripMenuItem_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Form1.textBox1] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.textBox1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Form1.textBox1_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.methods.existingMethod(System.String)] Missing &lt;returns&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.methods.existingMethod(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.methods.getMethod(System.String)] Missing &lt;returns&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.methods.getMethod(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.methods.method] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.methods.storeMethod(System.String,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.methods.storeMethod(System.String,System.String)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Shape.#ctor(System.Int32,System.Int32)] Missing &lt;param name=&quot;width&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Shape.#ctor(System.Int32,System.Int32)] Missing &lt;param name=&quot;height&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Shape.draw(Component2.Drawing)] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Shape.draw(Component2.Drawing)] Missing &lt;param name=&quot;newDrawing&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Shape.height] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Shape.width] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Variable.exisitingVariable(System.String)] Missing &lt;returns&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Variable.exisitingVariable(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Variable.pullData(System.String)] Missing &lt;returns&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Variable.pullData(System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Variable.storeData(System.String,System.Int32)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Variable.storeData(System.String,System.Int32)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Variable.UpdateVariable(System.String,System.Int32)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Component2.Variable.UpdateVariable(System.String,System.Int32)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Component2.Variable.variable] Missing &lt;summary&gt; documentation [E:\C#\DocumentsK\Working\BuildTopics.proj]
+  Processed 124 topic(s)
+  120 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+  ResolveReferenceLinksComponent: 5 entries added to the member ID URL cache.  New cache size: 32 entries
+Done Building Project &quot;E:\C#\DocumentsK\Working\BuildTopics.proj&quot; (default targets).
+    Last step completed in 00:00:37.5247
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00.0030
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\MSBuild\15.0\Bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2020.3.6.0
+Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing website files in E:\C#\DocumentsK\Working\Output\Website
+Processed 124 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to E:\C#\DocumentsK\Working\WebKI.xml
+Saving website table of contents to E:\C#\DocumentsK\Working\WebTOC.xml
+    Last step completed in 00:00:02.8373
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; E:\C#\DocumentsK\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; E:\C#\DocumentsK\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; E:\C#\DocumentsK\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; E:\C#\DocumentsK\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; E:\C#\DocumentsK\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; E:\C#\DocumentsK\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; E:\C#\DocumentsK\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; E:\C#\DocumentsK\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\GeneralError.htm -&gt; E:\C#\DocumentsK\Working\Output\Website\html\GeneralError.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\PageNotFound.htm -&gt; E:\C#\DocumentsK\Working\Output\Website\html\PageNotFound.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; E:\C#\DocumentsK\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; E:\C#\DocumentsK\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; E:\C#\DocumentsK\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.3.1.min.js -&gt; E:\C#\DocumentsK\Working\Output\Website\scripts\jquery-3.3.1.min.js
+    Last step completed in 00:00:01.2931
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00.0000
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:06.7702
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 263 files for the website content
+    Last step completed in 00:00:06.7216
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00.1763
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 12/27/2020 3:19:58 AM.  Total time: 00:01:11.4147
+
+</buildStep>
+</shfbBuild>
